@@ -1,12 +1,12 @@
-/* IMPORTS ----------------------------- */
+/* IMPORTS ------------------------------------------ */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* VARIABLES --------------------------- */
+/* VARIABLES ---------------------------------------- */
 :root {
   --blue: #1e73be;
 }
 
-/* RESET ------------------------------- */
+/* RESET -------------------------------------------- */
 * {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
@@ -14,9 +14,21 @@
   padding: 0;
 }
 
-/* CUSTOM ------------------------------ */
+/* CUSTOM ------------------------------------------- */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 
-/* MEDIA QUERIES ----------------------- */
+/* MEDIA QUERIES MOBILE FIRST ----------------------- */
+/* 
+Mobile -> 320px
+Tablet Portrait -> 768px
+Tablet Landscape -> 1024px
+Desktop -> 1366px
+*/
 @media screen and (max-width:768px) {
   .flex {
     flex-direction: column;
