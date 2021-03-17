@@ -3,23 +3,38 @@
 
 /* VARIABLES ---------------------------------------- */
 :root {
-  --blue: #1e73be;
+	--text-color: #1d1d1f;
+	--background-color: #fbfbfd;
+	--blue: #06c;
 }
 
 /* RESET -------------------------------------------- */
 * {
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 /* CUSTOM ------------------------------------------- */
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  color: var(--blue);
+  font-weight: 700;
 }
 
 /* MEDIA QUERIES MOBILE FIRST ----------------------- */
@@ -30,7 +45,7 @@ Tablet Landscape -> 1024px
 Desktop -> 1366px
 */
 @media screen and (max-width:768px) {
-  .flex {
-    flex-direction: column;
-  }
+	.flex {
+		flex-direction: column;
+	}
 }

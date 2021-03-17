@@ -1,0 +1,37 @@
+{
+  "title": "My Gallery",
+
+  "categories": [
+    {
+      "name": "categorie_001"
+    },
+    {
+      "name": "categorie_002"
+    },
+    {
+      "name": "categorie_003"
+    }
+  ],
+
+  "authors": [
+    {
+      "name": "author_001",
+      "images": [
+        {
+          "name":"imagen_001",
+          "path":"img/imagen_001.png",
+          "type":"portrait"
+        }
+      ]
+    },
+    {
+      "name": "author_002",
+      "images": []
+    },
+    {
+      "name": "author_003",
+      "images": []
+    }
+  ]
+  
+}
