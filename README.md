@@ -6,7 +6,8 @@
 
 | NAME | VERSION | LOCAL | URL |
 | --- | --- | --- | --- |
-| Bootstrap | v5.0.0-beta1 | css/bootstrap.min.css | https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css |
+| Bootstrap | 5.0.0-beta1 | css/bootstrap.min.css | https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css |
+| Datatables | 1.10.24 | css/datatables.min.css | https://cdn.datatables.net/v/dt/dt-1.10.24/datatables.min.css |
 | FontAwesome | 5.15.1 | css/fontawesome.min.css | https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css |
 | Materialize | 1.0.0 | css/materialize.min.css | https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css |
 
@@ -14,8 +15,9 @@
 
 | NAME | VERSION | LOCAL | URL |
 | --- | --- | --- | --- |
-| Bootstrap | v5.0.0-beta1 | js/libs/bootstrap.min.js | https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js |
+| Bootstrap | 5.0.0-beta1 | js/libs/bootstrap.min.js | https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js |
 | ChartJS | 2.9.4 | js/libs/Chart.min.js | https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js |
+| Datatables | 1.10.24 | js/libs/datatables.min.js | https://cdn.datatables.net/v/dt/dt-1.10.24/datatables.min.js |
 | FontAwesome | 5.15.1 | js/libs/fontawesome.min.js | https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/fontawesome.min.js |
 | jQuery | 3.5.1 | js/libs/jquery.min.js | https://code.jquery.com/jquery-3.5.1.min.js |
 | Materialize | 1.0.0 | js/libs/materialize.min.js | https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js |
