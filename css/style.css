@@ -4,9 +4,10 @@
 
 /* VARIABLES ---------------------------------------- */
 :root {
-	--text-color: #1d1d1f;
-	--background-color: #fbfbfd;
-	--blue: #06c;
+	--apple-background: #fbfbfd;
+	--apple-link: #06c;
+    --apple-text: #1d1d1f;
+    --burp: #f63;
 }
 
 /* RESET -------------------------------------------- */
@@ -30,12 +31,12 @@ h1 {
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 span {
-  color: var(--blue);
-  font-weight: 700;
+    color: var(--apple-blue);
+    font-weight: 700;
 }
 
 /* MEDIA QUERIES MOBILE FIRST ----------------------- */
